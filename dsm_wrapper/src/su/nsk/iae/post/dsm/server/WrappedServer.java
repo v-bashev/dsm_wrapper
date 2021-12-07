@@ -42,6 +42,7 @@ public class WrappedServer implements IWrappedServer {
 		final Injector injector = PoSTStandaloneSetup.getInjector();
 		final Resource resource = ModelDeserializer.deserializeFromXMI(serializedAst);
 
+		//TODO Change to your generation class
 		final STGenerator generator = new STGenerator();
 		final JavaIoFileSystemAccess fsa = injector.getInstance(JavaIoFileSystemAccess.class);
 

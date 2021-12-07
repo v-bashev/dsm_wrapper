@@ -5,7 +5,8 @@ import java.io.IOException;
 import su.nsk.iae.post.dsm.server.ServerLauncher;
 
 public class AppLauncher {
-	public static final String DSM_NAME = "ST-dsm";
+	//TODO Rename constants DSM_NAME (name of your dsm) DSM_DIRECTORY (directory for generated files by your generator)
+	public static final String DSM_NAME = "ST_dsm";
 	public static final String DSM_DIRECTORY = "st";
 
 	private static final String DEFAULT_HOST = "localhost";
